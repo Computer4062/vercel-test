@@ -9,7 +9,7 @@ app.use('/products', product)
 
 app.set('view engine', 'ejs')
 
-app.get('/products', (req, res) => {
+app.get('/', (req, res) => {
     res.send(' ')
 })
 
