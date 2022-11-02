@@ -9,6 +9,10 @@
   "scripts": {
     "start":"nodemon server.js"
   },
+  "respository":{
+    "type": "git",
+    "url": "git+https://github.com/Computer4062/vercel-test.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
