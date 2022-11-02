@@ -1,11 +1,11 @@
 const express = require('express')
 require('dotenv').config()
 
-const product = require('./api/product')
+const product = require('./routes/product')
 
 const app = express()
 
-app.use('/api/product', product)
+app.use('/products', product)
 
 app.set('view engine', 'ejs')
 
