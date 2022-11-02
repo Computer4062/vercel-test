@@ -10,7 +10,7 @@ app.use('/products', product)
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
-    res.render('home_page')
+    res.render('views/home_page')
 })
 
 
