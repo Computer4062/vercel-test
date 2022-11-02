@@ -11,11 +11,5 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ],
-    "redirects": [
-        {
-            "src":"/",
-            "dest":"https://vercel-test-blush-psi.vercel.app/products"
-        }
     ]
 }
