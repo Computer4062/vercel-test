@@ -9,8 +9,8 @@ app.use('/products', product)
 
 app.set('view engine', 'ejs')
 
-app.get('/', (req, res) => {
-    res.render('index')
+app.get('/products', (req, res) => {
+    res.send(' ')
 })
 
 
